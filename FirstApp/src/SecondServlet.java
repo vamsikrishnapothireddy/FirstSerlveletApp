@@ -18,7 +18,7 @@ public class SecondServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	static {
-		System.out.println("Servlet loading....");
+		System.out.println("Servlet loading......");
 	}
 
 	public SecondServlet() {
