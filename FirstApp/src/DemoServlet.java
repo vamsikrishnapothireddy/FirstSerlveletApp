@@ -55,6 +55,7 @@ public class DemoServlet implements Servlet {
 	public void service(ServletRequest request, ServletResponse response) throws ServletException, IOException {
         a++;
 		response.setContentType("text/html");
+		System.out.println("In Service");
 
 		PrintWriter out = response.getWriter();
 		out.println("<html><head><title>Output</title></head>");
